@@ -14,3 +14,7 @@ spring:
     generate-ddl: true
   server:
     port: 8080
+
+hystrix:
+  dashboard:
+    proxy-stream-allow-list: '*'
