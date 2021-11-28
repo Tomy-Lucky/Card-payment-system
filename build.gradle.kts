@@ -36,8 +36,8 @@ dependencies {
 	implementation("org.springframework.cloud:spring-cloud-starter-netflix-hystrix-dashboard:2.2.9.RELEASE")
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
 	implementation("org.springframework.cloud:spring-cloud-starter-bootstrap:3.0.4")
-
-
+	implementation("org.springframework.kafka:spring-kafka:2.7.6")
+//	implementation("com.fasterxml.jackson.core:jackson-databind:2.13.0")
 }
 
 tasks.withType<KotlinCompile> {
